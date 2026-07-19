@@ -1,0 +1,486 @@
+2D Poisson
+Grid size: 32 x 32
+Unknowns: 1024
+CG Solver Results
+Iterations: 59
+Relative residual: 8.34067e-09
+Runtime: 0.00102347
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 54
+Relative residual: 6.68857e-09
+Runtime: 0.00161137
+CG-PCG solution difference: 1.70094e-10
+First 10 values of x
+x[0] = 2.04373
+x[1] = 3.58745
+x[2] = 4.82882
+x[3] = 5.86073
+x[4] = 6.73399
+x[5] = 7.47983
+x[6] = 8.1191
+x[7] = 8.6666
+x[8] = 9.13325
+x[9] = 9.52733
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 32 x 32
+Unknowns: 1024
+CG Solver Results
+Iterations: 59
+Relative residual: 8.34067e-09
+Runtime: 0.00106199
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 54
+Relative residual: 6.68857e-09
+Runtime: 0.00148834
+CG-PCG solution difference: 1.70094e-10
+First 10 values of x
+x[0] = 2.04373
+x[1] = 3.58745
+x[2] = 4.82882
+x[3] = 5.86073
+x[4] = 6.73399
+x[5] = 7.47983
+x[6] = 8.1191
+x[7] = 8.6666
+x[8] = 9.13325
+x[9] = 9.52733
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 32 x 32
+Unknowns: 1024
+CG Solver Results
+Iterations: 59
+Relative residual: 8.34067e-09
+Runtime: 0.000945615
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 54
+Relative residual: 6.68857e-09
+Runtime: 0.00156722
+CG-PCG solution difference: 1.70094e-10
+First 10 values of x
+x[0] = 2.04373
+x[1] = 3.58745
+x[2] = 4.82882
+x[3] = 5.86073
+x[4] = 6.73399
+x[5] = 7.47983
+x[6] = 8.1191
+x[7] = 8.6666
+x[8] = 9.13325
+x[9] = 9.52733
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 64 x 64
+Unknowns: 4096
+CG Solver Results
+Iterations: 119
+Relative residual: 9.42261e-09
+Runtime: 0.00875618
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 106
+Relative residual: 7.12927e-09
+Runtime: 0.00954455
+CG-PCG solution difference: 1.29569e-10
+First 10 values of x
+x[0] = 2.47546
+x[1] = 4.45092
+x[2] = 6.12403
+x[3] = 7.58774
+x[4] = 8.89296
+x[5] = 10.071
+x[6] = 11.143
+x[7] = 12.1241
+x[8] = 13.0254
+x[9] = 13.856
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 64 x 64
+Unknowns: 4096
+CG Solver Results
+Iterations: 119
+Relative residual: 9.42261e-09
+Runtime: 0.0109912
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 106
+Relative residual: 7.12927e-09
+Runtime: 0.0123161
+CG-PCG solution difference: 1.29569e-10
+First 10 values of x
+x[0] = 2.47546
+x[1] = 4.45092
+x[2] = 6.12403
+x[3] = 7.58774
+x[4] = 8.89296
+x[5] = 10.071
+x[6] = 11.143
+x[7] = 12.1241
+x[8] = 13.0254
+x[9] = 13.856
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 64 x 64
+Unknowns: 4096
+CG Solver Results
+Iterations: 119
+Relative residual: 9.42261e-09
+Runtime: 0.00776744
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 106
+Relative residual: 7.12927e-09
+Runtime: 0.0110222
+CG-PCG solution difference: 1.29569e-10
+First 10 values of x
+x[0] = 2.47546
+x[1] = 4.45092
+x[2] = 6.12403
+x[3] = 7.58774
+x[4] = 8.89296
+x[5] = 10.071
+x[6] = 11.143
+x[7] = 12.1241
+x[8] = 13.0254
+x[9] = 13.856
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 128 x 128
+Unknowns: 16384
+CG Solver Results
+Iterations: 239
+Relative residual: 9.23906e-09
+Runtime: 0.0511167
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 210
+Relative residual: 8.33814e-09
+Runtime: 0.0722442
+CG-PCG solution difference: 1.14274e-10
+First 10 values of x
+x[0] = 2.91186
+x[1] = 5.32372
+x[2] = 7.43323
+x[3] = 9.33336
+x[4] = 11.075
+x[5] = 12.6895
+x[6] = 14.198
+x[7] = 15.6155
+x[8] = 16.9535
+x[9] = 18.2207
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 128 x 128
+Unknowns: 16384
+CG Solver Results
+Iterations: 239
+Relative residual: 9.23906e-09
+Runtime: 0.0448273
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 210
+Relative residual: 8.33814e-09
+Runtime: 0.0656624
+CG-PCG solution difference: 1.14274e-10
+First 10 values of x
+x[0] = 2.91186
+x[1] = 5.32372
+x[2] = 7.43323
+x[3] = 9.33336
+x[4] = 11.075
+x[5] = 12.6895
+x[6] = 14.198
+x[7] = 15.6155
+x[8] = 16.9535
+x[9] = 18.2207
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 128 x 128
+Unknowns: 16384
+CG Solver Results
+Iterations: 239
+Relative residual: 9.23906e-09
+Runtime: 0.0411516
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 210
+Relative residual: 8.33814e-09
+Runtime: 0.0624457
+CG-PCG solution difference: 1.14274e-10
+First 10 values of x
+x[0] = 2.91186
+x[1] = 5.32372
+x[2] = 7.43323
+x[3] = 9.33336
+x[4] = 11.075
+x[5] = 12.6895
+x[6] = 14.198
+x[7] = 15.6155
+x[8] = 16.9535
+x[9] = 18.2207
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 256 x 256
+Unknowns: 65536
+CG Solver Results
+Iterations: 470
+Relative residual: 9.6476e-09
+Runtime: 0.356088
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 403
+Relative residual: 9.1575e-09
+Runtime: 0.549448
+CG-PCG solution difference: 1.74743e-10
+First 10 values of x
+x[0] = 3.35067
+x[1] = 6.20134
+x[2] = 8.74967
+x[3] = 11.0886
+x[4] = 13.269
+x[5] = 15.3224
+x[6] = 17.2696
+x[7] = 19.126
+x[8] = 20.9028
+x[9] = 22.6089
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 256 x 256
+Unknowns: 65536
+CG Solver Results
+Iterations: 470
+Relative residual: 9.6476e-09
+Runtime: 0.338115
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 403
+Relative residual: 9.1575e-09
+Runtime: 0.563569
+CG-PCG solution difference: 1.74743e-10
+First 10 values of x
+x[0] = 3.35067
+x[1] = 6.20134
+x[2] = 8.74967
+x[3] = 11.0886
+x[4] = 13.269
+x[5] = 15.3224
+x[6] = 17.2696
+x[7] = 19.126
+x[8] = 20.9028
+x[9] = 22.6089
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 256 x 256
+Unknowns: 65536
+CG Solver Results
+Iterations: 470
+Relative residual: 9.6476e-09
+Runtime: 0.348612
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 403
+Relative residual: 9.1575e-09
+Runtime: 0.530097
+CG-PCG solution difference: 1.74743e-10
+First 10 values of x
+x[0] = 3.35067
+x[1] = 6.20134
+x[2] = 8.74967
+x[3] = 11.0886
+x[4] = 13.269
+x[5] = 15.3224
+x[6] = 17.2696
+x[7] = 19.126
+x[8] = 20.9028
+x[9] = 22.6089
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 512 x 512
+Unknowns: 262144
+CG Solver Results
+Iterations: 941
+Relative residual: 9.84818e-09
+Runtime: 3.31896
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 803
+Relative residual: 9.56744e-09
+Runtime: 5.04022
+CG-PCG solution difference: 9.86272e-11
+First 10 values of x
+x[0] = 3.79071
+x[1] = 7.08141
+x[2] = 10.0698
+x[3] = 12.8487
+x[4] = 15.4692
+x[5] = 17.9626
+x[6] = 20.3499
+x[7] = 22.6463
+x[8] = 24.8631
+x[9] = 27.0092
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 512 x 512
+Unknowns: 262144
+CG Solver Results
+Iterations: 941
+Relative residual: 9.84818e-09
+Runtime: 3.22887
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 803
+Relative residual: 9.56744e-09
+Runtime: 4.3863
+CG-PCG solution difference: 9.86272e-11
+First 10 values of x
+x[0] = 3.79071
+x[1] = 7.08141
+x[2] = 10.0698
+x[3] = 12.8487
+x[4] = 15.4692
+x[5] = 17.9626
+x[6] = 20.3499
+x[7] = 22.6463
+x[8] = 24.8631
+x[9] = 27.0092
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 512 x 512
+Unknowns: 262144
+CG Solver Results
+Iterations: 941
+Relative residual: 9.84818e-09
+Runtime: 3.00301
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 803
+Relative residual: 9.56744e-09
+Runtime: 5.52385
+CG-PCG solution difference: 9.86272e-11
+First 10 values of x
+x[0] = 3.79071
+x[1] = 7.08141
+x[2] = 10.0698
+x[3] = 12.8487
+x[4] = 15.4692
+x[5] = 17.9626
+x[6] = 20.3499
+x[7] = 22.6463
+x[8] = 24.8631
+x[9] = 27.0092
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 1024 x 1024
+Unknowns: 1048576
+CG Solver Results
+Iterations: 1001
+Relative residual: 0.055761
+Runtime: 14.5246
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 1001
+Relative residual: 0.00019479
+Runtime: 30.4406
+CG-PCG solution difference: 0.000307381
+First 10 values of x
+x[0] = 4.23136
+x[1] = 7.95602
+x[2] = 11.3828
+x[3] = 14.598
+x[4] = 17.6564
+x[5] = 20.5864
+x[6] = 23.4115
+x[7] = 26.1447
+x[8] = 28.7993
+x[9] = 31.3823
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 1024 x 1024
+Unknowns: 1048576
+CG Solver Results
+Iterations: 1001
+Relative residual: 0.055761
+Runtime: 15.0549
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 1001
+Relative residual: 0.00019479
+Runtime: 34.1471
+CG-PCG solution difference: 0.000307381
+First 10 values of x
+x[0] = 4.23136
+x[1] = 7.95602
+x[2] = 11.3828
+x[3] = 14.598
+x[4] = 17.6564
+x[5] = 20.5864
+x[6] = 23.4115
+x[7] = 26.1447
+x[8] = 28.7993
+x[9] = 31.3823
+
+Wrote result to results/phase2/serial_2d_results.csv
+2D Poisson
+Grid size: 1024 x 1024
+Unknowns: 1048576
+CG Solver Results
+Iterations: 1001
+Relative residual: 0.055761
+Runtime: 14.8432
+
+PCG-Block Jacobi Results
+Block size: 64
+Iterations: 1001
+Relative residual: 0.00019479
+Runtime: 32.122
+CG-PCG solution difference: 0.000307381
+First 10 values of x
+x[0] = 4.23136
+x[1] = 7.95602
+x[2] = 11.3828
+x[3] = 14.598
+x[4] = 17.6564
+x[5] = 20.5864
+x[6] = 23.4115
+x[7] = 26.1447
+x[8] = 28.7993
+x[9] = 31.3823
+
+Wrote result to results/phase2/serial_2d_results.csv

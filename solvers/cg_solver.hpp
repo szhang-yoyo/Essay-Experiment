@@ -9,6 +9,7 @@
 
 #include "../core/vector.hpp"
 #include "../problems/poisson1d.hpp"
+#include "../problems/poisson2d.hpp"
 
 struct SolverResult {
     int iterations;              // Number of iterations used
@@ -19,6 +20,15 @@ struct SolverResult {
 // Solve A*x = b using CG
 SolverResult conjugate_gradient(
     const Poisson1D& A,
+    const Vector& b,
+    Vector& x,
+    int max_iter,
+    double tol
+);
+
+
+SolverResult conjugate_gradient(
+    const Poisson2D& A,
     const Vector& b,
     Vector& x,
     int max_iter,

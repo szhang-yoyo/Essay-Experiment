@@ -98,7 +98,7 @@ int main() {
                   << "s  relres=" << cg_residual << "\n";
 
         // ---- PCG-BJ runs ----
-        BlockJacobi M(block_size);
+        BJ M(block_size);
 
         double pcg_runtime_sum = 0.0;
         double pcg_residual = 0.0;

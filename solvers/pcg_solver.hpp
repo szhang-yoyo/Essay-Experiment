@@ -11,11 +11,23 @@
 #include "../problems/poisson1d.hpp"
 #include "../preconditioners/block_jacobi.hpp"
 #include "cg_solver.hpp"
+#include "../problems/poisson2d.hpp"
 
-// Solve A*x = b using PCG with Block Jacobi
+// Solve A*x = b using PCG with Block Jacobi for 1D
 SolverResult pcg(
     const Poisson1D& A,
-    const BlockJacobi& M,
+    const BJ& M,
+    const Vector& b,
+    Vector& x,
+    int max_iter,
+    double tol
+);
+
+
+// Solve A*x = b using PCG with Block Jacobi for 2D
+SolverResult pcg(
+    const Poisson2D& A,
+    const BJ& M,
     const Vector& b,
     Vector& x,
     int max_iter,
