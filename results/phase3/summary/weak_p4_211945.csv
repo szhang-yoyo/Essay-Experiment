@@ -1,0 +1,4 @@
+scaling,grid_size,unknowns,processes,local_unknowns,method,overlap,sgs_sweeps,repeats,mean_iterations,mean_relative_residual,mean_runtime,std_runtime,min_runtime,max_runtime,job_id
+weak,512,262144,4,65536,AS1,1,4,5,288,8.47553e-09,0.8056,0.000798122,0.804496,0.806444,211945
+weak,512,262144,4,65536,AS2,2,4,5,292,8.75927e-09,0.827443,0.00108566,0.826202,0.829215,211945
+weak,512,262144,4,65536,BJ,0,4,5,299,9.16747e-09,0.719296,0.00229611,0.717415,0.723712,211945

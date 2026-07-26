@@ -1,0 +1,19 @@
+
+# Python virtual environments
+.venv*/
+__pycache__/
+*.pyc
+
+# Compiled files
+*.o
+apps/*
+!apps/*.cpp
+!apps/*.hpp
+
+# Temporary backup files
+*.save
+*.save.*
+
+# Slurm logs
+*.out
+*.err
