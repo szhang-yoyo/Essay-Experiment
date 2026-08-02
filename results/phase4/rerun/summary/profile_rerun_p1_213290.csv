@@ -1,0 +1,4 @@
+scaling,grid_size,unknowns,processes,local_unknowns,method,overlap,sgs_sweeps,repeats,mean_iterations,mean_relative_residual,mean_total_time,std_total_time,min_total_time,max_total_time,mean_spmv_time,mean_halo_time,mean_preconditioner_time,mean_reduction_time,mean_vector_time,job_id
+strong,512,262144,1,262144,AS1,1,4,3,201,9.4415e-09,2.25171,0.000893694,2.25049,2.2526,0.218324,0.000212826,1.83562,0.000212127,0.0936844,213290
+strong,512,262144,1,262144,AS2,2,4,3,201,9.4415e-09,2.25211,0.000920954,2.2509,2.25313,0.217892,0.000208722,1.83552,0.00022977,0.0940605,213290
+strong,512,262144,1,262144,BJ,0,4,3,201,9.4415e-09,1.93067,0.000241431,1.93036,1.93095,0.135514,0.000174199,1.59686,0.000171681,0.0960284,213290
