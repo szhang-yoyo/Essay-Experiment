@@ -17,3 +17,5 @@ apps/*
 # Slurm logs
 *.out
 *.err
+results/phase5/excluded_preliminary/
+results/phase5/optimal_incomplete.csv
