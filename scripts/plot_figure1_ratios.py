@@ -131,7 +131,7 @@ def main() -> None:
     fig, axes = plt.subplots(
         nrows=1,
         ncols=2,
-        figsize=(11.0, 4.4),
+        figsize=(12.5, 4.6),
         constrained_layout=True,
     )
 
@@ -180,21 +180,28 @@ def main() -> None:
             yerr=runtime_error,
             capsize=3,
             label=METHOD_LABELS[method],
+            color=COLORS[method],
             edgecolor="black",
             linewidth=0.7,
             hatch=HATCHES[method],
-            error_kw={"elinewidth": 0.9, "capthick": 0.9, "ecolor": "black",},
+            error_kw={
+                "elinewidth": 0.9,
+                "capthick": 0.9,
+                "ecolor": "black",
+            },
         )
 
     config_labels = [config["label"] for config in CONFIGURATIONS]
 
     ax_iterations.axhline(
         y=1.0,
+        color="0.25",
         linestyle="--",
         linewidth=1.0,
     )
     ax_runtime.axhline(
         y=1.0,
+        color="0.25",
         linestyle="--",
         linewidth=1.0,
     )
@@ -240,7 +247,7 @@ def main() -> None:
     )
 
     # A single shared legend avoids duplication.
-    handles, labels = ax_runtime.get_legend_handles_labels()
+    handles, labels = ax_iterations.get_legend_handles_labels()
     fig.legend(
         handles,
         labels,
