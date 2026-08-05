@@ -194,6 +194,22 @@ for (method, scaling), style in plot_styles.items():
         zorder=3,
     )
 
+ax.axvline(
+    x=0.0,
+    linestyle="--",
+    linewidth=0.9,
+    color="0.4",
+    zorder=1,
+)
+
+ax.axhline(
+    y=0.0,
+    linestyle="--",
+    linewidth=0.9,
+    color="0.4",
+    zorder=1,
+)
+
 # Axis labels
 ax.set_xlabel(
     r"Iteration reduction relative to BJ, $\Delta k$ (%)"
