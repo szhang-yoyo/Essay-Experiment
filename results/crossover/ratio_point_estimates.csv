@@ -1,0 +1,1 @@
+scaling,grid_size,processes,method,n_CG,n_M,T_CG_mean_s,T_M_mean_s,k_CG_mean,k_M_mean,C_CG_s_per_iter,C_M_s_per_iter,R_T,R_k,R_C,R_k_times_R_C,identity_abs_error,identity_pass,screening_RT_le_1_20
