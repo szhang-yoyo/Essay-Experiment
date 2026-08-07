@@ -1,0 +1,11 @@
+scaling,grid_size,processes,method,overlap,additional_repeats,start_repeat,original_job_id,original_cv_pct
+strong,512,1,AS2,2,2,6,212466,14.392643
+strong,512,1,BJ,0,2,6,212466,17.883514
+strong,512,32,AS2,2,2,6,216359,13.683712
+strong,2048,32,AS1,1,2,6,212471,14.088599
+strong,2048,32,BJ,0,2,6,212471,10.473771
+weak,1448,32,AS1,1,2,6,212462,12.018210
+weak,1448,32,AS2,2,2,6,212462,13.352925
+weak,1448,32,BJ,0,2,6,212462,15.605927
+weak,2048,64,AS1,1,2,6,212463,10.256209
+weak,2048,64,AS2,2,2,6,212463,13.046980

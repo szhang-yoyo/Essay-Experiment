@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Selected extreme effects of Classical Additive Schwarz overlap relative to Block Jacobi. Positive iteration-reduction values indicate fewer Krylov iterations, whereas positive time changes indicate an increased cost relative to Block Jacobi.}
+    \label{tab:overlap-extreme-effects}
+    \small
+    \setlength{\tabcolsep}{4pt}
+    \begin{tabular}{p{4.2cm}llrrrrr}
+        \toprule
+        Criterion & Scaling & Method & $N$ & $p$ & Iteration reduction (\%) & Time/iteration change (\%) & Runtime change (\%) \\
+        \midrule
+        Largest iteration reduction & strong & AS2 & 2048 & 128 & +11.19 & +27.53 & +13.26 \\
+        Closest to runtime break-even; Best AS1 runtime result & strong & AS1 & 2048 & 128 & +10.71 & +16.48 & +4.01 \\
+        Largest runtime increase & strong & AS2 & 2048 & 32 & +0.09 & +127.74 & +127.54 \\
+        Best AS2 runtime result & strong & AS2 & 2048 & 2 & +8.48 & +16.04 & +6.20 \\
+        \bottomrule
+    \end{tabular}
+\end{table}

@@ -1,0 +1,2 @@
+git_commit,compiler,mpi_version,compile_options,mpi_cg_sha256,mpi_pcg_sha256
+52d7484dd6780b93552bc389d9fe4948df651462,"g++ (GCC) 8.5.0 20210514 (Red Hat 8.5.0-28)","Intel(R) MPI Library for Linux* OS, Version 2021.12 Build 20240213 (id: 4f55822)","-O2 -std=c++17 -Wall -Wextra","3788de3c5c77cf133c0b9db8972698d162419ce924a9088bd428e7516f998c04","d507c074ff8e97042dc89f0a40b40d5cd12c4e0f2153d5689c19355318492695"

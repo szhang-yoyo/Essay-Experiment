@@ -1,0 +1,16 @@
+scaling,grid_size,processes,methods,repeats,reason
+strong,512,4,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,512,8,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,512,16,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,512,32,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,1024,4,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,1024,8,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,1024,32,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,2048,4,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,2048,8,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,2048,16,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,2048,64,"BJ,AS1,AS2",5,total-time CV above 20%
+strong,2048,128,"BJ,AS1,AS2",5,total-time CV above 20%
+weak,512,4,"BJ,AS1,AS2",5,total-time CV above 20%
+weak,724,8,"BJ,AS1,AS2",5,total-time CV above 20%
+weak,1024,16,"BJ,AS1,AS2",5,total-time CV above 20%

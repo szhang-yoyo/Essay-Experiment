@@ -1,0 +1,35 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Representative convergence and runtime results for CG, BJ-PCG, and Classical AS-PCG.}
+    \label{tab:representative-results}
+    \small
+    \setlength{\tabcolsep}{3.5pt}
+    \begin{tabular}{rrlrrrr}
+        \toprule
+        \(N\) & \(p\) & Method & \(N_{\mathrm{it}}\) & \(r_{\mathrm{rel}}\) & \(T_{\mathrm{total}}\) (s) & \(T_{\mathrm{iter}}\) (ms) \\
+        \midrule
+        \multicolumn{7}{l}{\textit{Single-process reference}} \\
+        1024 & 1 & CG & 1898 & \(9.959\times10^{-9}\) & \(10.821\pm0.023\) & 5.701 \\
+        1024 & 1 & BJ-PCG & 383 & \(9.329\times10^{-9}\) & \(23.062\pm0.693\) & 60.215 \\
+        1024 & 1 & AS-PCG (\(\delta=1\)) & 383 & \(9.329\times10^{-9}\) & \(26.980\pm0.562\) & 70.445 \\
+        1024 & 1 & AS-PCG (\(\delta=2\)) & 383 & \(9.329\times10^{-9}\) & \(26.981\pm0.723\) & 70.447 \\
+        \addlinespace
+        \multicolumn{7}{l}{\textit{Large-problem strong-scaling configuration}} \\
+        2048 & 32 & CG & 3826 & \(9.848\times10^{-9}\) & \(3.443\pm0.019\) & 0.900 \\
+        2048 & 32 & BJ-PCG & 1102 & \(9.235\times10^{-9}\) & \(10.527\pm1.103\) & 9.552 \\
+        2048 & 32 & AS-PCG (\(\delta=1\)) & 1072 & \(9.488\times10^{-9}\) & \(12.650\pm1.782\) & 11.801 \\
+        2048 & 32 & AS-PCG (\(\delta=2\)) & 1101 & \(9.992\times10^{-9}\) & \(13.370\pm1.091\) & 12.143 \\
+        \addlinespace
+        \multicolumn{7}{l}{\textit{Largest weak-scaling configuration}} \\
+        2896 & 128 & CG & 5429 & \(9.962\times10^{-9}\) & \(3.173\pm0.465\) & 0.584 \\
+        2896 & 128 & BJ-PCG & 2135 & \(9.622\times10^{-9}\) & \(16.077\pm2.557\) & 7.530 \\
+        2896 & 128 & AS-PCG (\(\delta=1\)) & 1900 & \(9.502\times10^{-9}\) & \(19.321\pm2.798\) & 10.169 \\
+        2896 & 128 & AS-PCG (\(\delta=2\)) & 1909 & \(9.949\times10^{-9}\) & \(22.352\pm2.942\) & 11.709 \\
+        \bottomrule
+    \end{tabular}
+    \par\smallskip
+    \begin{minipage}{0.96\textwidth}
+        \footnotesize
+        Reported runtimes are means \(\pm\) standard deviations over five runs. The per-iteration time is calculated as \(T_{\mathrm{iter}}=1000T_{\mathrm{total}}/N_{\mathrm{it}}\).
+    \end{minipage}
+\end{table}

@@ -1,0 +1,5 @@
+scaling,grid_size,processes,methods,job_id,dependency
+strong,512,1,AS2:BJ,216671,
+strong,2048,32,AS1:BJ,216672,afterok:216671
+weak,1448,32,AS1:AS2:BJ,216673,afterok:216672
+weak,2048,64,AS1:AS2,216674,afterok:216673

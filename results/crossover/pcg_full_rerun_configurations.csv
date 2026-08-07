@@ -1,0 +1,10 @@
+scaling,grid_size,processes,method,overlap,repeats,start_repeat,previous_cv_pct,action
+strong,512,1,AS2,2,5,1,22.476635,replace_with_fresh_5_runs
+strong,512,1,BJ,0,5,1,24.481246,replace_with_fresh_5_runs
+strong,2048,32,AS1,1,5,1,22.707952,replace_with_fresh_5_runs
+strong,2048,32,BJ,0,5,1,25.021117,replace_with_fresh_5_runs
+weak,1448,32,AS1,1,5,1,26.547147,replace_with_fresh_5_runs
+weak,1448,32,AS2,2,5,1,27.905677,replace_with_fresh_5_runs
+weak,1448,32,BJ,0,5,1,28.197193,replace_with_fresh_5_runs
+weak,2048,64,AS1,1,5,1,38.220525,replace_with_fresh_5_runs
+weak,2048,64,AS2,2,5,1,37.554789,replace_with_fresh_5_runs

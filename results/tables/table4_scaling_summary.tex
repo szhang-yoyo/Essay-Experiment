@@ -1,0 +1,52 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Endpoint summary of strong- and weak-scaling performance.}
+    \label{tab:scaling-summary}
+    \small
+
+    \textbf{(a) Strong scaling}
+    \vspace{1mm}
+
+    \setlength{\tabcolsep}{4pt}
+    \begin{tabular}{llrccrr}
+        \toprule
+        $N$ & Method & $p_{\max}$ & $k_1\!\rightarrow\!k_{p_{\max}}$ & $T_1\!\rightarrow\!T_{p_{\max}}$ (s) & $S_{p_{\max}}$ & $E_{p_{\max}}$ (\%) \\
+        \midrule
+        512 & CG & 32 & 941--941 & 1.340--0.053 & 25.19 & 78.7 \\
+        512 & BJ & 32 & 201--324 & 1.918--0.109 & 17.58 & 54.9 \\
+        512 & AS1 & 32 & 201--295 & 3.069--0.116 & 26.51 & 82.8 \\
+        512 & AS2 & 32 & 201--294 & 2.243--0.133 & 16.83 & 52.6 \\
+        \addlinespace
+        1024 & CG & 64 & 1898--1898 & 10.821--0.281 & 38.56 & 60.2 \\
+        1024 & BJ & 64 & 383--636 & 23.062--0.584 & 39.51 & 61.7 \\
+        1024 & AS1 & 64 & 383--567 & 26.981--0.607 & 44.41 & 69.4 \\
+        1024 & AS2 & 64 & 383--566 & 26.981--0.701 & 38.48 & 60.1 \\
+        \addlinespace
+        2048 & CG & 128 & 3826--3826 & 156.103--1.106 & 141.19 & 110.3 \\
+        2048 & BJ & 128 & 764--1233 & 208.339--2.267 & 91.89 & 71.8 \\
+        2048 & AS1 & 128 & 764--1101 & 239.810--2.358 & 101.69 & 79.4 \\
+        2048 & AS2 & 128 & 764--1095 & 240.781--2.568 & 93.76 & 73.3 \\
+        \bottomrule
+    \end{tabular}
+
+    \vspace{3mm}
+    \textbf{(b) Weak scaling}
+    \vspace{1mm}
+
+    \begin{tabular}{lcccc}
+        \toprule
+        Method & $N_1\!\rightarrow\!N_{128}$ & $k_1\!\rightarrow\!k_{128}$ & $T_1\!\rightarrow\!T_{128}$ (s) & $E^{\mathrm{weak}}_{128}$ (\%) \\
+        \midrule
+        CG & 256--2896 & 470--5429 & 0.155--3.108 & 5.0 \\
+        BJ & 256--2896 & 102--2135 & 0.320--7.795 & 4.1 \\
+        AS1 & 256--2896 & 102--1900 & 0.368--10.359 & 3.5 \\
+        AS2 & 256--2896 & 102--1909 & 0.370--11.182 & 3.3 \\
+        \bottomrule
+    \end{tabular}
+
+    \vspace{2mm}
+    \begin{minipage}{0.97\linewidth}
+        \footnotesize
+        For strong scaling, $S_p=T_1/T_p$ and $E_p=100S_p/p$. For weak scaling, $E^{\mathrm{weak}}_p=100T_1/T_p$. The symbols $k$ and $T$ denote the mean iteration count and mean total runtime, respectively.
+    \end{minipage}
+\end{table}

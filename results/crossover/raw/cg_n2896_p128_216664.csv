@@ -1,0 +1,3 @@
+grid_size,processes,method,repeat,iterations,relative_residual,total_time,job_id
+2896,128,CG,6,5429,9.96225e-09,2.97055,216664
+2896,128,CG,7,5429,9.96225e-09,2.92381,216664

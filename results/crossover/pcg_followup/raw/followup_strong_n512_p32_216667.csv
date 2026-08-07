@@ -1,0 +1,3 @@
+scaling,grid_size,unknowns,processes,local_unknowns,method,overlap,sgs_sweeps,repeat,iterations,relative_residual,total_time,spmv_time,halo_time,preconditioner_time,reduction_time,vector_time,job_id
+strong,512,262144,32,8192,AS2,2,4,6,294,8.03923e-09,0.125523,0.00781186,0.00143459,0.103034,0.00683366,0.00339267,216667
+strong,512,262144,32,8192,AS2,2,4,7,294,8.03923e-09,0.127048,0.00674426,0.00114938,0.101632,0.0103576,0.00381634,216667

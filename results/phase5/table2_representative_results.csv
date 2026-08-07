@@ -1,0 +1,13 @@
+case,grid_size,processes,method,mean_iterations,mean_relative_residual,mean_total_time,std_total_time,time_per_iteration_ms
+Single-process reference,1024,1,CG,1898,9.95882e-09,10.8209,0.0230672,5.701211801896733
+Single-process reference,1024,1,BJ,383,9.32925e-09,23.0623,0.693312,60.21488250652742
+Single-process reference,1024,1,AS1,383,9.32925e-09,26.9805,0.561811,70.44516971279373
+Single-process reference,1024,1,AS2,383,9.32925e-09,26.9811,0.723202,70.4467362924282
+Representative high-process strong-scaling case,2048,32,CG,3826,9.84837e-09,3.44316,0.0194017,0.8999372713016206
+Representative high-process strong-scaling case,2048,32,BJ,1102,9.235e-09,10.5266,1.10253,9.552268602540835
+Representative high-process strong-scaling case,2048,32,AS1,1072,9.48762e-09,12.6502,1.78224,11.800559701492539
+Representative high-process strong-scaling case,2048,32,AS2,1101,9.99226e-09,13.3695,1.09054,12.143051771117166
+Largest weak-scaling case,2896,128,CG,5429,9.96225e-09,3.17263,0.465119,0.5843857063916006
+Largest weak-scaling case,2896,128,BJ,2135,9.62245e-09,16.077,2.5574,7.530210772833724
+Largest weak-scaling case,2896,128,AS1,1900,9.50244e-09,19.3209,2.79798,10.168894736842105
+Largest weak-scaling case,2896,128,AS2,1909,9.94903e-09,22.352,2.94239,11.708748035620744
