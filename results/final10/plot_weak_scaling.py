@@ -80,12 +80,17 @@ ax.set_ylabel("Mean runtime (s)")
 
 ax.grid(True, alpha=0.25)
 
-ax.legend(
-    ncol=2,
+handles, legend_labels = ax.get_legend_handles_labels()
+
+fig.legend(
+    handles,
+    legend_labels,
+    loc="upper center",
+    ncol=4,
     frameon=False,
 )
 
-plt.tight_layout()
+plt.tight_layout(rect=[0, 0, 1, 0.90])
 
 plt.savefig(
     "results/final10/figures/weak_scaling_runtime.pdf",
