@@ -251,7 +251,9 @@ ax.set_ylim(
 
 ax.legend(
     frameon=False,
-    loc="best",
+    loc="lower center",
+    bbox_to_anchor=(0.5, 1.02),
+    ncol=2,
 )
 
 fig.tight_layout()
