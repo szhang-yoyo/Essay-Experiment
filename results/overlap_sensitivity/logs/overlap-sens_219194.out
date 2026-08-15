@@ -1,0 +1,238 @@
+N=512, p=8, method=BJ, delta=0, repeat=1
+N=512, p=8, method=AS, delta=1, repeat=1
+N=512, p=8, method=AS, delta=2, repeat=1
+N=512, p=8, method=AS, delta=6, repeat=1
+N=512, p=8, method=AS, delta=12, repeat=1
+N=512, p=8, method=AS, delta=19, repeat=1
+N=512, p=8, method=AS, delta=32, repeat=1
+N=512, p=8, method=BJ, delta=0, repeat=2
+N=512, p=8, method=AS, delta=1, repeat=2
+N=512, p=8, method=AS, delta=2, repeat=2
+N=512, p=8, method=AS, delta=6, repeat=2
+N=512, p=8, method=AS, delta=12, repeat=2
+N=512, p=8, method=AS, delta=19, repeat=2
+N=512, p=8, method=AS, delta=32, repeat=2
+N=512, p=8, method=BJ, delta=0, repeat=3
+N=512, p=8, method=AS, delta=1, repeat=3
+N=512, p=8, method=AS, delta=2, repeat=3
+N=512, p=8, method=AS, delta=6, repeat=3
+N=512, p=8, method=AS, delta=12, repeat=3
+N=512, p=8, method=AS, delta=19, repeat=3
+N=512, p=8, method=AS, delta=32, repeat=3
+N=512, p=8, method=BJ, delta=0, repeat=4
+N=512, p=8, method=AS, delta=1, repeat=4
+N=512, p=8, method=AS, delta=2, repeat=4
+N=512, p=8, method=AS, delta=6, repeat=4
+N=512, p=8, method=AS, delta=12, repeat=4
+N=512, p=8, method=AS, delta=19, repeat=4
+N=512, p=8, method=AS, delta=32, repeat=4
+N=512, p=8, method=BJ, delta=0, repeat=5
+N=512, p=8, method=AS, delta=1, repeat=5
+N=512, p=8, method=AS, delta=2, repeat=5
+N=512, p=8, method=AS, delta=6, repeat=5
+N=512, p=8, method=AS, delta=12, repeat=5
+N=512, p=8, method=AS, delta=19, repeat=5
+N=512, p=8, method=AS, delta=32, repeat=5
+N=512, p=8, method=BJ, delta=0, repeat=6
+N=512, p=8, method=AS, delta=1, repeat=6
+N=512, p=8, method=AS, delta=2, repeat=6
+N=512, p=8, method=AS, delta=6, repeat=6
+N=512, p=8, method=AS, delta=12, repeat=6
+N=512, p=8, method=AS, delta=19, repeat=6
+N=512, p=8, method=AS, delta=32, repeat=6
+N=512, p=8, method=BJ, delta=0, repeat=7
+N=512, p=8, method=AS, delta=1, repeat=7
+N=512, p=8, method=AS, delta=2, repeat=7
+N=512, p=8, method=AS, delta=6, repeat=7
+N=512, p=8, method=AS, delta=12, repeat=7
+N=512, p=8, method=AS, delta=19, repeat=7
+N=512, p=8, method=AS, delta=32, repeat=7
+N=512, p=8, method=BJ, delta=0, repeat=8
+N=512, p=8, method=AS, delta=1, repeat=8
+N=512, p=8, method=AS, delta=2, repeat=8
+N=512, p=8, method=AS, delta=6, repeat=8
+N=512, p=8, method=AS, delta=12, repeat=8
+N=512, p=8, method=AS, delta=19, repeat=8
+N=512, p=8, method=AS, delta=32, repeat=8
+N=512, p=8, method=BJ, delta=0, repeat=9
+N=512, p=8, method=AS, delta=1, repeat=9
+N=512, p=8, method=AS, delta=2, repeat=9
+N=512, p=8, method=AS, delta=6, repeat=9
+N=512, p=8, method=AS, delta=12, repeat=9
+N=512, p=8, method=AS, delta=19, repeat=9
+N=512, p=8, method=AS, delta=32, repeat=9
+N=512, p=8, method=BJ, delta=0, repeat=10
+N=512, p=8, method=AS, delta=1, repeat=10
+N=512, p=8, method=AS, delta=2, repeat=10
+N=512, p=8, method=AS, delta=6, repeat=10
+N=512, p=8, method=AS, delta=12, repeat=10
+N=512, p=8, method=AS, delta=19, repeat=10
+N=512, p=8, method=AS, delta=32, repeat=10
+Completed overlap sensitivity experiment.
+Raw data: results/overlap_sensitivity/raw/overlap_N512_p8_219194.csv
+
+
+###############################################################################
+TCHPC Cluster: callan
+Job 219194 (overlap-sens) for User 'szhang2' in Account 'callan_szhang2'
+Finished at: Thu Aug 13 05:02:29 IST 2026
+
+Job efficiency estimates:
+=========================
+
+Job ID: 219194
+Cluster: callan
+User/Group: szhang2/szhang2
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 00:07:56
+CPU Efficiency: 6.58% of 02:00:32 core-walltime
+Job Wall-clock time: 00:01:53
+Memory Utilized: 988.66 MB
+Memory Efficiency: 0.39% of 250.00 GB (3.91 GB/core)
+
+Job completion status:
+======================
+
+JobID           JobName AllocCPUS NTasks NNodes     MaxRSS    MaxRSSNode  MaxDiskRead MaxDiskWrite    Elapsed      State ExitCode 
+------------ ---------- --------- ------ ------ ---------- ------------- ------------ ------------ ---------- ---------- -------- 
+219194       overlap-s+        64             1                                                      00:01:53  COMPLETED      0:0 
+219194.batch      batch        64      1      1     14656K    callan-n11       18.29M        1.61M   00:01:53  COMPLETED      0:0 
+219194.exte+     extern        64      1      1                                                      00:01:53  COMPLETED      0:0 
+219194.0     hydra_bst+        64      1      1    992408K    callan-n11            0        0.00M   00:00:02  COMPLETED      0:0 
+219194.1     hydra_bst+        64      1      1    991060K    callan-n11            0        0.00M   00:00:04  COMPLETED      0:0 
+219194.2     hydra_bst+        64      1      1    989444K    callan-n11            0        0.00M   00:00:05  COMPLETED      0:0 
+219194.3     hydra_bst+        64      1      1    986892K    callan-n11            0        0.00M   00:00:07  COMPLETED      0:0 
+219194.4     hydra_bst+        64      1      1    999844K    callan-n11            0        0.00M   00:00:08  COMPLETED      0:0 
+219194.5     hydra_bst+        64      1      1    971.50M    callan-n11            0        0.00M   00:00:10  COMPLETED      0:0 
+219194.6     hydra_bst+        64      1      1   1004108K    callan-n11            0        0.00M   00:00:12  COMPLETED      0:0 
+219194.7     hydra_bst+        64      1      1    996116K    callan-n11            0        0.00M   00:00:13  COMPLETED      0:0 
+219194.8     hydra_bst+        64      1      1    989752K    callan-n11            0        0.00M   00:00:15  COMPLETED      0:0 
+219194.9     hydra_bst+        64      1      1    993720K    callan-n11            0        0.00M   00:00:16  COMPLETED      0:0 
+219194.10    hydra_bst+        64      1      1    987536K    callan-n11            0        0.00M   00:00:18  COMPLETED      0:0 
+219194.11    hydra_bst+        64      1      1    997136K    callan-n11            0        0.00M   00:00:20  COMPLETED      0:0 
+219194.12    hydra_bst+        64      1      1    992668K    callan-n11            0        0.00M   00:00:21  COMPLETED      0:0 
+219194.13    hydra_bst+        64      1      1    992552K    callan-n11            0        0.00M   00:00:23  COMPLETED      0:0 
+219194.14    hydra_bst+        64      1      1    994192K    callan-n11            0        0.00M   00:00:25  COMPLETED      0:0 
+219194.15    hydra_bst+        64      1      1    987668K    callan-n11            0        0.00M   00:00:26  COMPLETED      0:0 
+219194.16    hydra_bst+        64      1      1    996224K    callan-n11            0        0.00M   00:00:28  COMPLETED      0:0 
+219194.17    hydra_bst+        64      1      1    997456K    callan-n11            0        0.00M   00:00:29  COMPLETED      0:0 
+219194.18    hydra_bst+        64      1      1    996344K    callan-n11            0        0.00M   00:00:31  COMPLETED      0:0 
+219194.19    hydra_bst+        64      1      1    991520K    callan-n11            0        0.00M   00:00:33  COMPLETED      0:0 
+219194.20    hydra_bst+        64      1      1    999320K    callan-n11            0        0.00M   00:00:34  COMPLETED      0:0 
+219194.21    hydra_bst+        64      1      1    993212K    callan-n11            0        0.00M   00:00:36  COMPLETED      0:0 
+219194.22    hydra_bst+        64      1      1   1007796K    callan-n11            0        0.00M   00:00:37  COMPLETED      0:0 
+219194.23    hydra_bst+        64      1      1    988876K    callan-n11            0        0.00M   00:00:39  COMPLETED      0:0 
+219194.24    hydra_bst+        64      1      1    994144K    callan-n11            0        0.00M   00:00:40  COMPLETED      0:0 
+219194.25    hydra_bst+        64      1      1   1003892K    callan-n11            0        0.00M   00:00:42  COMPLETED      0:0 
+219194.26    hydra_bst+        64      1      1   1003260K    callan-n11            0        0.00M   00:00:44  COMPLETED      0:0 
+219194.27    hydra_bst+        64      1      1   1007136K    callan-n11            0        0.00M   00:00:46  COMPLETED      0:0 
+219194.28    hydra_bst+        64      1      1    998384K    callan-n11            0        0.00M   00:00:47  COMPLETED      0:0 
+219194.29    hydra_bst+        64      1      1    978784K    callan-n11            0        0.00M   00:00:49  COMPLETED      0:0 
+219194.30    hydra_bst+        64      1      1    992904K    callan-n11            0        0.00M   00:00:50  COMPLETED      0:0 
+219194.31    hydra_bst+        64      1      1    996924K    callan-n11            0        0.00M   00:00:52  COMPLETED      0:0 
+219194.32    hydra_bst+        64      1      1    995156K    callan-n11            0        0.00M   00:00:53  COMPLETED      0:0 
+219194.33    hydra_bst+        64      1      1    988164K    callan-n11            0        0.00M   00:00:55  COMPLETED      0:0 
+219194.34    hydra_bst+        64      1      1    995640K    callan-n11            0        0.00M   00:00:57  COMPLETED      0:0 
+219194.35    hydra_bst+        64      1      1   1001028K    callan-n11            0        0.00M   00:00:58  COMPLETED      0:0 
+219194.36    hydra_bst+        64      1      1    997496K    callan-n11            0        0.00M   00:01:00  COMPLETED      0:0 
+219194.37    hydra_bst+        64      1      1   1002876K    callan-n11            0        0.00M   00:01:01  COMPLETED      0:0 
+219194.38    hydra_bst+        64      1      1    992972K    callan-n11            0        0.00M   00:01:03  COMPLETED      0:0 
+219194.39    hydra_bst+        64      1      1   1002060K    callan-n11            0        0.00M   00:01:04  COMPLETED      0:0 
+219194.40    hydra_bst+        64      1      1    996112K    callan-n11            0        0.00M   00:01:06  COMPLETED      0:0 
+219194.41    hydra_bst+        64      1      1   1012384K    callan-n11            0        0.00M   00:01:08  COMPLETED      0:0 
+219194.42    hydra_bst+        64      1      1    995996K    callan-n11            0        0.00M   00:01:09  COMPLETED      0:0 
+219194.43    hydra_bst+        64      1      1    987508K    callan-n11            0        0.00M   00:01:11  COMPLETED      0:0 
+219194.44    hydra_bst+        64      1      1    987408K    callan-n11            0        0.00M   00:01:12  COMPLETED      0:0 
+219194.45    hydra_bst+        64      1      1   1004816K    callan-n11            0        0.00M   00:01:14  COMPLETED      0:0 
+219194.46    hydra_bst+        64      1      1   1003376K    callan-n11            0        0.00M   00:01:16  COMPLETED      0:0 
+219194.47    hydra_bst+        64      1      1    998748K    callan-n11            0        0.00M   00:01:17  COMPLETED      0:0 
+219194.48    hydra_bst+        64      1      1   1002816K    callan-n11            0        0.00M   00:01:19  COMPLETED      0:0 
+219194.49    hydra_bst+        64      1      1    996548K    callan-n11            0        0.00M   00:01:21  COMPLETED      0:0 
+219194.50    hydra_bst+        64      1      1    990816K    callan-n11            0        0.00M   00:01:22  COMPLETED      0:0 
+219194.51    hydra_bst+        64      1      1    997960K    callan-n11            0        0.00M   00:01:24  COMPLETED      0:0 
+219194.52    hydra_bst+        64      1      1    992692K    callan-n11            0        0.00M   00:01:25  COMPLETED      0:0 
+219194.53    hydra_bst+        64      1      1    993524K    callan-n11            0        0.00M   00:01:27  COMPLETED      0:0 
+219194.54    hydra_bst+        64      1      1    994188K    callan-n11            0        0.00M   00:01:28  COMPLETED      0:0 
+219194.55    hydra_bst+        64      1      1   1011032K    callan-n11            0        0.00M   00:01:30  COMPLETED      0:0 
+219194.56    hydra_bst+        64      1      1    987940K    callan-n11            0        0.00M   00:01:32  COMPLETED      0:0 
+219194.57    hydra_bst+        64      1      1    995728K    callan-n11            0        0.00M   00:01:33  COMPLETED      0:0 
+219194.58    hydra_bst+        64      1      1    993420K    callan-n11            0        0.00M   00:01:35  COMPLETED      0:0 
+219194.59    hydra_bst+        64      1      1   1003864K    callan-n11            0        0.00M   00:01:36  COMPLETED      0:0 
+219194.60    hydra_bst+        64      1      1    992804K    callan-n11            0        0.00M   00:01:38  COMPLETED      0:0 
+219194.61    hydra_bst+        64      1      1    996452K    callan-n11            0        0.00M   00:01:40  COMPLETED      0:0 
+219194.62    hydra_bst+        64      1      1    999896K    callan-n11            0        0.00M   00:01:42  COMPLETED      0:0 
+219194.63    hydra_bst+        64      1      1    981676K    callan-n11            0        0.00M   00:01:43  COMPLETED      0:0 
+219194.64    hydra_bst+        64      1      1    999468K    callan-n11            0        0.00M   00:01:45  COMPLETED      0:0 
+219194.65    hydra_bst+        64      1      1   1000020K    callan-n11            0        0.00M   00:01:46  COMPLETED      0:0 
+219194.66    hydra_bst+        64      1      1    994136K    callan-n11            0        0.00M   00:01:48  COMPLETED      0:0 
+219194.67    hydra_bst+        64      1      1   1003144K    callan-n11            0        0.00M   00:01:49  COMPLETED      0:0 
+219194.68    hydra_bst+        64      1      1   1001416K    callan-n11            0        0.00M   00:01:51  COMPLETED      0:0 
+219194.69    hydra_bst+        64      1      1    990876K    callan-n11            0        0.00M   00:01:53  COMPLETED      0:0 
+
+
+Job details:
+============
+
+JobId=219194 JobName=overlap-sens
+   SLUID=s219KZWMFBC500
+   UserId=szhang2(2231) GroupId=szhang2(2163) MCS_label=N/A
+   Priority=163569 Nice=0 Account=callan_szhang2 QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:01:53 TimeLimit=00:30:00 TimeMin=N/A
+   SubmitTime=2026-08-13T05:00:15 EligibleTime=2026-08-13T05:00:15
+   AccrueTime=2026-08-13T05:00:15
+   StartTime=2026-08-13T05:00:36 EndTime=2026-08-13T05:02:29 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-08-13T05:00:36 Scheduler=Backfill
+   Partition=compute AllocNode:Sid=callan01:2052145
+   ReqNodeList=(null) ExcNodeList=callan-n[13-24]
+   NodeList=callan-n11
+   BatchHost=callan-n11
+   NumNodes=1 NumCPUs=64 NumTasks=8 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=8,mem=32000M,node=1,billing=8
+   AllocTRES=cpu=64,mem=250G,node=1,billing=64
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=(null)
+     Nodes=callan-n11 CPU_IDs=0-63 Mem=256000 GRES=
+   MinCPUsNode=1 MinMemoryCPU=4000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/home/users/mschpc/2025/szhang2/pcg_project/scripts/overlap_sensitivity_final10.slurm
+   SubmitLine=sbatch scripts/overlap_sensitivity_final10.slurm
+   WorkDir=/home/users/mschpc/2025/szhang2/pcg_project
+   StdErr=/home/users/mschpc/2025/szhang2/pcg_project/results/overlap_sensitivity/logs/overlap-sens_219194.err
+   StdIn=/dev/null
+   StdOut=/home/users/mschpc/2025/szhang2/pcg_project/results/overlap_sensitivity/logs/overlap-sens_219194.out
+   TresPerTask=cpu=1
+
+
+Disk quota details:
+===================
+
+                         Block Limits                                    |                     File Limits
+Name       type             MB      quota      limit   in_doubt    grace |    files   quota    limit in_doubt    grace
+root       USR         7745404          0          0        786     none |   579606       0        0      292     none
+root       FILESET     7134199          0          0       2602     none | 12087182       0        0      801     none
+
+
+SLURM Bank Statement:
+=====================
+
+User           Usage |        Account     Usage | Account Limit Available (CPU hrs)
+---------- --------- + -------------- --------- + ------------- ---------
+szhang2          462 | CALLAN_SZHANG2       462 |       300,000   299,538
+
+
+Acknowledgements:
+=================
+
+Note that usage of TCHPC Resources *must* be acknowledged in all publications.
+
+Please see this page for details relevant to this cluster:
+
+http://www.tchpc.tcd.ie/resources/acknowledgementpolicy
+
+################################################################################

@@ -13,6 +13,7 @@ private:
     int rank_;
     int np_;
     int delta_;
+    int sgs_sweeps_;
 
     MPI_Comm comm_;
     Partition part_;
