@@ -1,0 +1,101 @@
+2D Poisson MPI-PCG
+Preconditioner: Additive Schwarz
+Overlap: 32
+Grid size: 512 x 512
+Unknowns: 262144
+MPI processes: 8
+Iterations: 300
+Relative residual: 8.62576e-09
+Total time: 0.813188
+SpMV time: 0.0349622
+Halo time: 0.0015724
+Preconditioner time: 0.725825
+Reduction time: 0.0186628
+Vector time: 0.0154289
+
+
+###############################################################################
+TCHPC Cluster: callan
+Job 219193 (as-d32-check) for User 'szhang2' in Account 'callan_szhang2'
+Finished at: Thu Aug 13 04:54:39 IST 2026
+
+Job efficiency estimates:
+=========================
+
+
+
+Job completion status:
+======================
+
+JobID           JobName AllocCPUS NTasks NNodes     MaxRSS    MaxRSSNode  MaxDiskRead MaxDiskWrite    Elapsed      State ExitCode 
+------------ ---------- --------- ------ ------ ---------- ------------- ------------ ------------ ---------- ---------- -------- 
+219193       as-d32-ch+        64             1                                                      00:00:00    RUNNING      0:0 
+219193.batch      batch        64      1      1     11888K    callan-n11            0        0.00M   00:00:03  COMPLETED      0:0 
+219193.exte+     extern        64      1      1                                                      00:00:00    RUNNING      0:0 
+219193.0     hydra_bst+        64      1      1    989552K    callan-n11            0        0.00M   00:00:03  COMPLETED      0:0 
+
+
+Job details:
+============
+
+JobId=219193 JobName=as-d32-check
+   SLUID=s219KZWM4VC600
+   UserId=szhang2(2231) GroupId=szhang2(2163) MCS_label=N/A
+   Priority=163568 Nice=0 Account=callan_szhang2 QOS=normal
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:00:03 TimeLimit=00:20:00 TimeMin=N/A
+   SubmitTime=2026-08-13T04:54:31 EligibleTime=2026-08-13T04:54:31
+   AccrueTime=2026-08-13T04:54:31
+   StartTime=2026-08-13T04:54:36 EndTime=2026-08-13T04:54:39 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-08-13T04:54:36 Scheduler=Backfill
+   Partition=compute AllocNode:Sid=callan01:2052145
+   ReqNodeList=(null) ExcNodeList=callan-n[13-24]
+   NodeList=callan-n11
+   BatchHost=callan-n11
+   NumNodes=1 NumCPUs=64 NumTasks=8 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=8,mem=32000M,node=1,billing=8
+   AllocTRES=cpu=64,mem=250G,node=1,billing=64
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   JOB_GRES=(null)
+     Nodes=callan-n11 CPU_IDs=0-63 Mem=256000 GRES=
+   MinCPUsNode=1 MinMemoryCPU=4000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=(null)
+   SubmitLine=sbatch --job-name=as-d32-check --nodes=1 --ntasks=8 --cpus-per-task=1 --exclusive --time=00:20:00 --exclude=callan-n[13-24] --output=results/overlap_sensitivity/check/as_d32_%j.out --error=results/overlap_sensitivity/check/as_d32_%j.err --wrap=module purge; module load mpi/latest; export OMP_NUM_THREADS=1; export SGS_SWEEPS=4; mpirun -np 8 ./apps/mpi_pcg 512 as 32
+   WorkDir=/home/users/mschpc/2025/szhang2/pcg_project
+   StdErr=/home/users/mschpc/2025/szhang2/pcg_project/results/overlap_sensitivity/check/as_d32_219193.err
+   StdIn=/dev/null
+   StdOut=/home/users/mschpc/2025/szhang2/pcg_project/results/overlap_sensitivity/check/as_d32_219193.out
+   TresPerTask=cpu=1
+
+
+Disk quota details:
+===================
+
+                         Block Limits                                    |                     File Limits
+Name       type             MB      quota      limit   in_doubt    grace |    files   quota    limit in_doubt    grace
+root       USR         7745228          0          0        802     none |   579599       0        0      294     none
+root       FILESET     7130956          0          0       2826     none | 12087172       0        0      847     none
+
+
+SLURM Bank Statement:
+=====================
+
+User           Usage |        Account     Usage | Account Limit Available (CPU hrs)
+---------- --------- + -------------- --------- + ------------- ---------
+szhang2          460 | CALLAN_SZHANG2       460 |       300,000   299,540
+
+
+Acknowledgements:
+=================
+
+Note that usage of TCHPC Resources *must* be acknowledged in all publications.
+
+Please see this page for details relevant to this cluster:
+
+http://www.tchpc.tcd.ie/resources/acknowledgementpolicy
+
+################################################################################

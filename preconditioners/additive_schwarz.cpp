@@ -17,6 +17,18 @@ AS::AS(
       comm_(comm),
       part_(n, rank, np)
 {
+    const char* env = std::getenv("SGS_SWEEPS");
+
+    if (env != nullptr)
+    {
+        sgs_sweeps_ = std::atoi(env);
+    }
+    else
+    {
+        sgs_sweeps_ = 4;
+    }
+
+
     fst_row_ = part_.get_first_row();
     lst_row_ = part_.get_last_row();
     lo_rows_ = part_.get_local_rows();
@@ -123,7 +135,7 @@ void AS::solve_local(
     Vector& ov_z
 ) const
 {
-       local_sgs(ov_r, ov_z, ov_rows_, n_, 4);
+       local_sgs(ov_r, ov_z, ov_rows_, n_, sgs_sweeps_);
 }
 
 void AS::add_corr(
