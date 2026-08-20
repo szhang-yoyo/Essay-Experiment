@@ -1,4 +1,0 @@
-scaling,grid_size,unknowns,processes,local_unknowns,method,overlap,sgs_sweeps,repeats,mean_iterations,mean_relative_residual,mean_total_time,std_total_time,min_total_time,max_total_time,mean_spmv_time,mean_halo_time,mean_preconditioner_time,mean_reduction_time,mean_vector_time,job_id
-weak,724,524176,8,65884,AS1,1,4,5,454,9.39962e-09,4.72917,5.18023,1.94153,15.0863,0.463454,0.289242,2.29001,2.43863,0.07785,212460
-weak,724,524176,8,65884,AS2,2,4,5,449,8.97536e-09,5.1952,5.86108,2.20189,16.9171,0.589088,0.437382,2.21778,2.85357,0.072089,212460
-weak,724,524176,8,65884,BJ,0,4,5,462,7.77661e-09,3.64087,3.75452,1.53707,11.1422,0.452206,0.338853,1.44615,2.01948,0.0751441,212460
