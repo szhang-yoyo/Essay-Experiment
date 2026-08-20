@@ -7,7 +7,6 @@ class MPIBJ
 {
 private:
     int n_;
-    int sgs_sweeps_; 
 
 public:
     MPIBJ(int n);
