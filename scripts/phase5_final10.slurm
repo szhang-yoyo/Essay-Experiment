@@ -1,4 +1,20 @@
 #!/bin/bash
+# Final strong- and weak-scaling experiment used in the dissertation.
+#
+# Purpose:
+#   Compare unpreconditioned CG with BJ-PCG, AS1-PCG, and AS2-PCG.
+#
+# Configuration:
+#   Strong scaling: N = 512, 1024, 2048 with supported p up to 128.
+#   Weak scaling: approximately 65,536 unknowns per MPI process.
+#   Repetitions = 10, SGS sweeps q = 4.
+#
+# Output:
+#   Raw PCG and CG measurements are written to results/final10/raw/.
+#
+# Dissertation use:
+#   This is the core Final10 scaling dataset. The fixed q=4 setting is an
+#   experimental baseline, not a claim of runtime optimality.
 #SBATCH --job-name=p5-final10
 #SBATCH --cpus-per-task=1
 #SBATCH --exclusive

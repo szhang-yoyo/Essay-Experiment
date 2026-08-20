@@ -1,4 +1,20 @@
 #!/bin/bash
+# Overlap-sensitivity experiment used in the dissertation.
+#
+# Purpose:
+#   Measure how increasing Classical Additive Schwarz overlap changes
+#   iteration count and time-to-solution relative to Block Jacobi.
+#
+# Configuration:
+#   N = 512, p = 8, owned rows per process = 64.
+#   delta = 0 (BJ) and delta = 1, 2, 6, 12, 19, 32 (AS).
+#   SGS sweeps q = 4, repetitions = 10.
+#
+# Output:
+#   Raw measurements are written to results/overlap_sensitivity/raw/.
+#
+# Dissertation use:
+#   Used for the fixed-block-count overlap sensitivity analysis.
 #SBATCH --job-name=overlap-sens
 #SBATCH --nodes=1
 #SBATCH --ntasks=8

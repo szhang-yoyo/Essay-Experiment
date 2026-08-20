@@ -1,4 +1,20 @@
 #!/bin/bash
+# SGS-sweep sensitivity experiment used in the dissertation.
+#
+# Purpose:
+#   Examine how the strength of the local SGS solve affects convergence
+#   and total time-to-solution for BJ-PCG and overlapping AS-PCG.
+#
+# Configuration:
+#   N = 1024, p = 16, q = 1, 2, 4, 8.
+#   Methods: BJ, AS1 (delta=1), and AS2 (delta=2).
+#   Repetitions = 10 per tested configuration.
+#
+# Output:
+#   Raw measurements are written to results/sgs_sensitivity/raw/.
+#
+# Dissertation use:
+#   Tests sensitivity to the fixed q=4 baseline used by the main experiments.
 #SBATCH --job-name=sgs-sensitivity
 #SBATCH --nodes=1
 #SBATCH --ntasks=16
@@ -121,4 +137,3 @@ done
 echo
 echo "SGS sensitivity experiment complete."
 echo "Raw results: ${raw}"
-
